@@ -19,6 +19,7 @@ public:
 	void increase_size();
 	void remove(int data);
 	void print();
+	void print_child(int current, int count);
 	~Binary_Tree();
 };
 
