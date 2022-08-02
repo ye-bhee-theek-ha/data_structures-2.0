@@ -9,6 +9,15 @@ struct node
 	int data;
 	node* left;
 	node* right;
+	node* parent;
+
+	node(int data)
+	{
+		this->data = data;
+		this->left = NULL;
+		this->right = NULL;
+		this->parent = NULL;
+	}
 };
 
 class BST
@@ -16,6 +25,15 @@ class BST
 	node* root;
 
 public:
+	BST();
+	node* get_root();
+	int height(node* root);
+	int depth(node* root);
+	void add(node* root, int data);
+	void add(int data);
+	void print(node* root);
+	void print_A(node* root);
+
 
 };
 
