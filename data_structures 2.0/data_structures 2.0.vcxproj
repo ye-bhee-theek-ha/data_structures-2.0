@@ -139,13 +139,17 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="binary_search_tree.cpp" />
     <ClCompile Include="Binary_Tree.cpp" />
     <ClCompile Include="BST.cpp" />
+    <ClCompile Include="queue.cpp" />
     <ClCompile Include="Source.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="binary_search_tree.h" />
     <ClInclude Include="Binary_Tree.h" />
     <ClInclude Include="BST.h" />
+    <ClInclude Include="queue.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
